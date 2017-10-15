@@ -1,0 +1,24 @@
+{
+  "name": "fuse-box-cli",
+  "description": "Adds cli argument handling for fusebox",
+  "version": "0.0.1",
+  "author": "FreehuntX",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freehuntx/fuse-box-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freehuntx/fuse-box-cli/issues"
+  },
+  "homepage": "https://github.com/freehuntx/fuse-box-cli#readme",
+  "keywords": [
+    "fusebox",
+    "options",
+    "args",
+    "cli"
+  ]
+}

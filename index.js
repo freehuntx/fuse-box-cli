@@ -1,5 +1,5 @@
-const yargs = require('yargs')
 const { Sparky } = module.parent.require('fuse-box')
+const yargs = require('yargs')
 
 class FuseBoxCli {
   constructor() {
@@ -44,7 +44,7 @@ class FuseBoxCli {
       let taskDesc = this._taskDescriptions[taskName] || ''
 
       if (taskName === 'default') {
-        taskName = '\b\b* default'
+        taskName = '\b\b* default\0\0'
         taskDesc = taskDesc || 'The default task'
       }
 
@@ -57,11 +57,13 @@ class FuseBoxCli {
   }
 
   _overrideSparkyStart() {
-    Sparky.$start = Sparky.start
+    const originalStart = Sparky.start
 
-    Sparky.start = () => {
+    Sparky.start = (...args) => {
+      Sparky.start = originalStart
+
       this._onSparkyStart()
-      return Sparky.$start()
+      return Sparky.start(...args)
     }
   }
 

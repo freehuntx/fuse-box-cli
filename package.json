@@ -1,7 +1,7 @@
 {
   "name": "fuse-box-cli",
   "description": "Adds cli argument handling for fusebox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "FreehuntX",
   "license": "MIT",
   "dependencies": {

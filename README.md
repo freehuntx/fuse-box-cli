@@ -1,7 +1,8 @@
 # fuse-box-cli
-![npm](https://nodei.co/npm/fuse-box-cli.png?downloads=true&stars=true)  
+[![npm](https://nodei.co/npm/fuse-box-cli.png?downloads=true&stars=true)](https://www.npmjs.com/package/fuse-box-cli)  
 
-Fusebox is a nice piece of software, i really like it! But sadly there is no easy way for providing options.  
+Fusebox is a nice piece of software, i really like it!  
+There is one thing i want to do so much, and thats to give fusebox an nice CLI interface.  
 For this reason i created this module.
   
 # Features

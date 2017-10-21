@@ -1,3 +1,8 @@
+# Note
+As of version fuse-box@2.3.4-beta.13, FuseBox has its own CLI API!  
+For more informations, see: http://fuse-box.org/page/cli-api  
+This project is discontinued now!
+
 # fuse-box-cli
 [![npm](https://nodei.co/npm/fuse-box-cli.png?downloads=true&stars=true)](https://www.npmjs.com/package/fuse-box-cli)  
 
